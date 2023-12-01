@@ -1,0 +1,39 @@
+{
+  "name": "echo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.8.3",
+    "solid-icons": "^1.1.0",
+    "solid-js": "^1.7.8",
+    "solid-transition-group": "^0.2.3"
+  },
+  "devDependencies": {
+    "@tanstack/solid-query": "^5.4.3",
+    "@tiptap/core": "^2.1.12",
+    "@tiptap/extension-code-block-lowlight": "^2.1.12",
+    "@tiptap/extension-color": "^2.1.12",
+    "@tiptap/extension-dropcursor": "^2.1.12",
+    "@tiptap/extension-image": "^2.1.12",
+    "@tiptap/extension-list-item": "^2.1.12",
+    "@tiptap/extension-text-style": "^2.1.12",
+    "@tiptap/html": "^2.1.12",
+    "@tiptap/pm": "^2.1.12",
+    "@tiptap/starter-kit": "^2.1.12",
+    "@types/node": "^20.8.8",
+    "@unocss/reset": "^0.57.1",
+    "lowlight": "^3.1.0",
+    "sass": "^1.69.5",
+    "solid-tiptap": "^0.6.0",
+    "typescript": "^5.0.2",
+    "unocss": "^0.57.1",
+    "vite": "^4.4.5",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
