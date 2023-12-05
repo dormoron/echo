@@ -1,4 +1,6 @@
 // 重置css
 @import '@unocss/reset/tailwind.css';
-
+// 基础样式
 @import "base";
+// 动画库
+@import "animation";

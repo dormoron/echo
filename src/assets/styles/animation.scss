@@ -1,0 +1,47 @@
+@keyframes ocean {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    25% {
+        -webkit-transform: rotate(-1deg);
+        transform: rotate(-1deg);
+    }
+    50% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    75% {
+        -webkit-transform: rotate(1deg);
+        transform: rotate(1deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes shooting-star {
+    100% {
+        -webkit-transform: rotate(-40deg)translateX(-450px);
+        transform: rotate(-40deg)translateX(-450px);
+    }
+}
